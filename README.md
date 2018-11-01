@@ -1,6 +1,7 @@
-Read me
 
-## User Stories
+## Read me
+
+#### User Stories
 
 >As a shopper
 >So I know how much an item costs
@@ -18,6 +19,6 @@ Read me
 >So that I know how much to pay
 >I would like to see all prices correctly formatted (£xx.xx)
 
-*Nouns:* Shopper, item
+**Nouns:** Shopper, item
 
-*Verbs:* costs, scan items, total of all scanned items, Prices formatted £xx.xx
+**Verbs:** costs, scan items, total of all scanned items, Prices formatted £xx.xx

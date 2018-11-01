@@ -11,4 +11,7 @@ class Shopper
     @checkout.each { |item| total_cost += item.price }
     total_cost
   end
+  def return_formatted_total_cost
+    "£#{'%.2f' % (return_total_cost/100.0)}"
+  end
 end
