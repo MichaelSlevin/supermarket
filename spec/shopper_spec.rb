@@ -14,6 +14,6 @@ describe Shopper do
       shopper = Shopper.new
       shopper.scan(Item.new(300))
       shopper.scan(Item.new(200))
-      expect(shopper.return_formatted_total_cost).to eq(/£(\D+\.\D+)/)
+      expect(shopper.return_formatted_total_cost).to eq("£5.00")
     end
 end

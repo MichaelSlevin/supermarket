@@ -5,6 +5,6 @@ class Item
     @price = price
   end
   def return_formatted_price
-    "£#{'%.2f' % (@price/100.0)}"
+    "£#{'%.2f' % (price/100.0)}"
   end
 end
